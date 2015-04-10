@@ -1,0 +1,72 @@
+dercell, body {
+  background-color: #FFF;
+}
+#statusActions {
+  margin-right:10px;
+  color: #FFF;
+}
+#sidebar{
+  padding-top: 26px;
+}
+div.memberwrapper {
+    background-color: #fefefe;
+}
+#container{
+  font-family: 'avenir', 'open sans', sans-serif;
+}
+#footer a, #headercell a {
+  color: #8763A3;
+}
+#footer {color: #D1AFDF;}
+body.authed #footer{
+  bottom: 0;
+  position: absolute;
+  font-size: 10px;
+}
+#buffers .active a.buffer{
+  color: #000;
+  background-color: #FFF;
+}
+#buffers .active.selected a.buffer, #buffers .active.selected a.buffer:hover{
+  color: #000;
+  background-color: #FFF;
+  border: 1px solid #ddd;
+}
+
+#div.log div.groupedLines{
+  background-color: #f5f4f5;
+}
+
+.bufferHead{
+    border-bottom: 1px solid #DDD;
+  background-color: #F2f2f3;
+  }
+  
+div.log div.self{
+    background-color: #fff;
+}
+  
+div.log div.row.self span a.author{
+    color: #1D946B;
+}  
+div.log div.row.highlight {
+  background-color: #FFF6D9;
+  border: 1px solid #ffde73;
+}
+  
+#buffers ul.buffers .active.unread a.buffer {
+  border-left-color: #FF1BA6;
+}
+#buffers .selected span.label {
+  padding-left: 12px;
+  color: rgb(158, 50, 195);
+}
+div#buffersFooter p#addNetwork a{
+  border-radius: 8px;
+  background-color: #129384;
+  border: 0;
+  color: #FFF;
+  padding: 5px 28px;
+  font-size: 12px;
+  background-position: 8px 5px;
+}
