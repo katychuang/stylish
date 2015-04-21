@@ -1,4 +1,4 @@
-dercell, body {
+#headercell, body {
   background-color: #FFF;
 }
 #statusActions {
@@ -18,11 +18,13 @@ div.memberwrapper {
   color: #8763A3;
 }
 #footer {color: #D1AFDF;}
+
 body.authed #footer{
   bottom: 0;
   position: absolute;
   font-size: 10px;
 }
+
 #buffers .active a.buffer{
   color: #000;
   background-color: #FFF;
@@ -38,7 +40,7 @@ body.authed #footer{
 }
 
 .bufferHead{
-    border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #D6DAD8;
   background-color: #F2f2f3;
   }
   
@@ -70,3 +72,14 @@ div#buffersFooter p#addNetwork a{
   font-size: 12px;
   background-position: 8px 5px;
 }
+
+div.log div.messageRow{
+	padding: 5px;
+  	font-size: 12px;
+}
+
+table.buffer{
+  border-color: #B7B6BE
+}
+
+::-webkit-scrollbar-thumb {background-color: #96939B}
