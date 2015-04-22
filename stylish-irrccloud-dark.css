@@ -1,0 +1,122 @@
+#headercell, body {
+  background-color: #000;
+}
+#statusActions {
+  margin-right:10px;
+  color: #000; /*lines between top links*/
+}
+#statusActions b{color: #fff;}
+
+#sidebar{
+  padding-top: 26px;
+}
+div.memberwrapper {
+    background-color: #fefefe;
+}
+#container{
+  font-family: 'avenir', 'open sans', sans-serif;
+}
+#footer a, #headercell a {
+  color: #1E72FF;
+}
+#footer {color: light blue;}
+
+body.authed #footer{
+  bottom: 0;
+  position: absolute;
+  font-size: 10px;
+}
+
+#buffers h2.active a.buffer{
+  color: #FFF;
+  background-color: #000;
+  border-color: #fff;
+  border: 1px solid #757575;
+  padding-left:17px;
+}
+div.buffermain {background-color: #000;}
+
+#buffers h2 a.buffer {
+  border-bottom: 1px solid #EEE;
+}
+
+#buffers a.buffer{
+  padding-left:5px;
+}
+
+#buffers .active a.buffer{
+  color: #FFF;
+  background-color: #444;
+}
+
+#buffers .active.selected a.buffer, #buffers .active.selected a.buffer:hover{
+  color: #FFF;
+}
+
+#div.log div.groupedLines{
+  background-color: #f5f4f5;
+}
+
+.bufferHead{
+  border-bottom: 1px solid #D6DAD8;
+  background-color: #444;                   
+  }
+td.statuscell div.status h2.bufferHeading span.label { color: #ddd}
+div.log div.self{
+    background-color: #222;
+    color: #aaa;
+}
+
+div.memberwrapper {
+  background-color: #000;
+}
+ul.memberList a {
+  color: #FFF;
+}
+
+div.log div.row.self span a.author{
+    color: #1D946B;
+}  
+div.log div.row.highlight {
+  background-color: #FFF6D9;
+  border: 1px solid #ffde73;
+}
+  
+#buffers .selected span.label {
+  padding-left: 12px; 
+}
+div#buffersFooter p#addNetwork a{
+  border-radius: 0px;
+  background-color: #000; /*#129384;*/
+  border: 0;
+  color: #FFF;
+  padding: 5px 5px;
+  font-size: 14px;
+  background-position: 8px 5px;
+  background-image: none;
+}
+
+div#buffersFooter p#addNetwork a:before{
+  content: "+ ";
+}
+
+div.log div.messageRow{
+    padding: 5px;
+    font-size: 12px;
+    color:#aaa;
+}
+
+div.log div.messageRow .authorWrap a.author{
+    color: #828AA1;
+}
+
+table.buffer{
+  border-color: #B7B6BE;
+  -moz-box-shadow: 0 2px 5px #888;
+  -webkit-box-shadow: 0 2px 5px#888;
+  box-shadow: 0 2px 5px #888;
+  border-radius:0;
+}
+
+::-webkit-scrollbar-track-piece {background-color: #444; border:0;}
+::-webkit-scrollbar-thumb {background-color: #444}
